@@ -5,7 +5,7 @@
 import { isDark } from '~/composables'
 
 useHead({
-  title: 'Vitesse',
+  title: 'Vite-Base',
   meta: [
     { name: 'description', content: 'Opinionated Vite Starter Template' },
     {

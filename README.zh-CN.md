@@ -23,7 +23,7 @@
 
 ## 特性
 
-- ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/), [ESBuild](https://github.com/evanw/esbuild) - 就是快！
+- ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite), [ESBuild](https://github.com/evanw/esbuild) - 就是快！
 
 - 🗂 [基于文件的路由](./src/pages)
 
@@ -100,7 +100,6 @@
 - [TypeScript](https://www.typescriptlang.org/)
 - [Vitest](https://github.com/vitest-dev/vitest) - 基于 Vite 的单元测试框架
 - [Cypress](https://cypress.io/) - E2E 测试
-- [pnpm](https://pnpm.js.org/) - 快, 节省磁盘空间的包管理器
 - [`vite-ssg`](https://github.com/antfu/vite-ssg) - 服务端生成
   - [critters](https://github.com/GoogleChromeLabs/critters) - 关键 CSS 生成器
 - [Netlify](https://www.netlify.com/) - 零配置的部署
@@ -164,7 +163,7 @@ pnpm i # 如果你没装过 pnpm, 可以先运行: npm install -g pnpm
 只需要执行以下命令就可以在 http://localhost:3333 中看到
 
 ```bash
-pnpm dev
+yarn dev
 ```
 
 ### 构建
@@ -172,7 +171,7 @@ pnpm dev
 构建该应用只需要执行以下命令
 
 ```bash
-pnpm build
+yarn build
 ```
 
 然后你会看到用于发布的 `dist` 文件夹被生成。

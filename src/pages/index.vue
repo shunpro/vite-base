@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import { useUserStore } from '~/stores/user'
 
+// 引入数据仓库实例
 const user = useUserStore()
 const name = $ref(user.savedName)
 
+// 引入路由实例，用于路由跳转操作
 const router = useRouter()
 const go = () => {
   if (name)
@@ -58,6 +60,7 @@ const { t } = useI18n()
   </div>
 </template>
 
+<!-- layout 页面布局系统，此处采用src/layouts/home.vue页面布局 -->
 <route lang="yaml">
 meta:
   layout: home

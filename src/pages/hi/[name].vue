@@ -1,6 +1,9 @@
 <script setup lang="ts">
+// src/pages/hi/[name].vue  --> /hi/:name 动态路由，name将做为路由参数传入页面props
+
 import { useUserStore } from '~/stores/user'
 
+// 动态路由 参数props  name
 const props = defineProps<{ name: string }>()
 const router = useRouter()
 const user = useUserStore()
